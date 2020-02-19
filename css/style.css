@@ -1,0 +1,404 @@
+/* ==========================================
+     Default Theme
+--------------------------------------------
+    Fonts: Relway & Open Sans
+-------------------------------------------
+Color: 
+           Sundance:        #D1AD5D
+           White:              #fff
+           Black:              #000
+           Grey:               #212226
+           White Smoke:        #f4f4f4
+============================================*/
+/* =========================
+        Html, Body
+===========================*/
+body,
+html {
+    height: 100%;
+}
+body {
+    color: #212226;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section {
+    background: #fff;
+    overflow: hidden;
+}
+#home {
+    background: none;
+    height: 100%;
+}
+.nav ul li {
+    font-family: 'Relway', sans-serif;
+}
+
+/* ==========================
+        Loader
+============================= */
+#loader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+#status {
+    background-image: url("../img/pre-loader/loader.gif");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-top: 230px;
+    margin-left: -100px;
+}
+
+/*=======================
+home background
+========================= */
+#bg-home {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+}
+#over-lay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+#home-heading-01 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+#home-heading-02 span {
+    color: #fff;
+    font-weight: 500;
+}
+#home-heading-02 {
+    color: #fff;
+    font-weight: 300;
+}
+#home-text p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 250;
+    margin: 8px 0 30px;
+}
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -15px;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.9);
+}
+/*=======================
+        Button 
+========================*/
+.btn-general {
+    font-family: 'Relway', sans-serif;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.btn-home {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn-home :hover,
+.btn-home:focus {
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #D1AD5D;
+    border: 1px solid #D1AD5D;
+}
+#home-btn :hover {
+    cursor: pointer;
+    color: #D1AD5D !important;
+    border: 1px solid #D1AD5D;
+}
+/* content box */
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+}
+/*=======================
+        Nav bar
+========================= */
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    /* padding: 10px; */
+}
+.logo {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+}
+nav-link {
+    font-weight: 100;
+}
+.search {
+    font-size: 18px;
+}
+nav ul li :focus,
+nav ul li :hover {
+    color: #D1AD5D !important;
+}
+/* Product section */
+#product {
+    padding: 40px;
+    /* color: #D1AD5D !important; */
+    background: #f4f4f4;
+}
+.product-container {
+    /* height: 5em; */
+    background: #fff;
+    padding-bottom: 30px;
+}
+.product-container p {
+    color: rgba(0, 0, 0, 0.5);
+}
+.product-h2{
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Relway';
+    text-shadow: rgba(0, 0, 0, 0.9);
+}
+.fiver-star-rating {
+    color: #D1AD5D !important;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.btn-product {
+    background: #D1AD5D;
+    font-family: 'Relway', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    color: #f4f4f4 !important;
+    margin-top: 15px;
+}
+#product-button {
+    padding-top: 5px;
+}
+/* =======================================
+            over-view
+==========================================*/
+#over-view {
+    background: #D1AD5D;
+    padding: 30px;
+}
+#over-view-content {
+    padding: 30px;
+    color: #fff;
+}
+#over-view-content h2 {
+    padding: 10px;
+    font-weight: 450;
+    font-size: 30px;
+}
+#over-view-content p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+#over-view-content hr{
+    width: 70px;
+    height: 3px;
+    background-color: #fff;
+}
+
+/*================================
+          gallery 
+=================================*/
+#gallery{
+    padding: 40px;
+}
+#gallery h2{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+}
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+}
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }}
+    
+/* ==================================
+            About us
+=====================================*/
+#statement{
+    background-image: url(../img/slider/slider-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#statement .content-box-lg{
+    background-color: rgb(0, 0,0,0.5);
+}
+#teach-statement h2{
+    color: #D1AD5D;
+    margin-top: -20px;
+    /* padding-top: 0px; */
+}
+#teach-statement p{
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* ===================================
+            Footer
+=====================================*/
+#footer{
+    background: rgba(0, 0, 0, 0.9);
+    background-repeat: no-repeat;
+}
+.footer-navbar{
+    color: white;
+}
+.footer-navbar li{
+    padding: 8px;
+    font-weight: 400;
+    font-family: 'Raleway';
+}
+#footer-section-01{
+    padding: 30px;
+}
+.hr{
+    background-color: #fff;
+}
+#footer-img h5{
+    padding-top: 8px;
+    color: #D1AD5D;
+}
+#footer-section-03 p{
+    color: #D1AD5D;
+    font-family: 'Relway';
+}
+.footer-li{
+    font-size: 13px;
+    padding: 1px;
+}
+/*===icons styling===*/
+#social-icons{
+    float: right;
+    border-bottom: 1px solid #D1AD5D;
+}
+#social-icons i{
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px thick white;
+}
+.fa-facebook-f{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #3f729b;
+}
+.fa-twitter{
+    color: #00acee ;
+}
+.fa-youtube{
+    color: #c4302b;
+}
